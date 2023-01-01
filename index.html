@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Starlette Hospitals</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<script type="application/x-javascript">
+		addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+	</script>
+	<!-- bootstrap-css -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--// css -->
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- font -->
+	<link href="//fonts.googleapis.com/css?family=Arvo:400,400i,700,700i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+		rel="stylesheet">
+	<!-- //font -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="banner jarallax">
+		<div class="header">
+			<div class="container">
+				<div class="header-left">
+					<div class="customlayouts-logo">
+						<h1>
+							<a href="index.html">Starlette Hospitals</a>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="custom-header-bottom">
+			<div class="agileinfo-phone">
+				<p><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +91 9415421497</p>
+			</div>
+			<div class="top-nav">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+							data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="first-list"><a class="active" href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+				</nav>
+			</div>
+			<div class="agileinfo-social-grids">
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="container">
+				<div class="custom-banner-info">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider4">
+								<li>
+									<div class="customlayouts-banner-info">
+										<h3>Modern</h3>
+										<p>Well-Equipped with State-Of-The-Art Instruments</p>
+									</div>
+								</li>
+								<li>
+									<div class="customlayouts-banner-info">
+										<h3>Reliable</h3>
+										<p>Critical Treatments with 100% Success Rate</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						<script>
+							$(function () {
+								$("#slider4").responsiveSlides({
+									auto: true,
+									pager: true,
+									nav: false,
+									speed: 400,
+									namespace: "callbacks",
+									before: function () {
+										$('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+										$('.events').append("<li>after event fired.</li>");
+									}
+								});
+
+							});
+						</script>
+						<!--banner Slider starts Here-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- welcome -->
+	<div class="welcome">
+		<div class="container">
+			<div class="agile-title">
+				<h2>Welcome</h2>
+			</div>
+			<div class="customls-row">
+				<div class="col-md-6 welcome-left">
+					<div class="welcome-img">
+						<img src="images/2.jpg" class="img-responsive zoom-img" alt="" />
+					</div>
+					<p><b>Starlette Hospitals</b> are the health care institutions which excels in providing patient
+						treatment
+						with
+						specialized health science and auxiliary healthcare staff and medical equipment.</p>
+
+				</div>
+				<div class="col-md-6 welcome-right">
+					<div class="open-hours-row">
+						<div class="col-md-3 open-hours-left">
+							<h4>OPENING HOURS </h4>
+						</div>
+						<div class="col-md-3 open-hours-left">
+							<h6>Every Day</h6>
+							<h5>7am - 9pm</h5>
+						</div>
+						<div class="col-md-3 open-hours-left">
+							<h6>Saturday</h6>
+							<h5>9am - 7pm</h5>
+						</div>
+						<div class="col-md-3 open-hours-left">
+							<h6>Sunday</h6>
+							<h5>10am - 5pm</h5>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 welcome-left-grids">
+						<div class="welcome-img">
+							<img src="images/3.jpg" class="img-responsive zoom-img" alt="" />
+						</div>
+					</div>
+					<div class="col-md-6 welcome-left-grids">
+						<div class="welcome-img">
+							<img src="images/4.jpg" class="img-responsive zoom-img" alt="" />
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //welcome -->
+	<!-- services -->
+	<div class="services">
+		<div class="container">
+			<div class="agile-title">
+				<h3>Our Services</h3>
+			</div>
+			<div class="custom-services-grids">
+				<div class="col-md-3 customl-services-grid">
+					<div class="customls-services-img">
+						<i class="fa fa-hospital-o aria-hidden=" true"></i>
+					</div>
+					<div class="agileits-services-info">
+						<h4>Short-Term Hospitalization</h4>
+						<p>Short-stay units are hospital units that provide short-term care for patients.</p>
+					</div>
+				</div>
+				<div class="col-md-3 customl-services-grid">
+					<div class="customls-services-img">
+						<i class="fa fa-medkit" aria-hidden="true"></i>
+					</div>
+					<div class="agileits-services-info">
+						<h4>Emergency Services</h4>
+						<p>An emergency department providing the medical treatment facility specializing in emergency
+							medicine, the acute care of patients who present without prior appointment</p>
+					</div>
+				</div>
+				<div class="col-md-3 customl-services-grid">
+					<div class="customls-services-img">
+						<i class="fa fa-cog" aria-hidden="true"></i>
+					</div>
+					<div class="agileits-services-info">
+						<h4>Laboratory services</h4>
+						<p>Labs equipped with the state-of-the-art equipment makes it possible to conduct tests and
+							generate the results with minimum waiting time</p>
+					</div>
+				</div>
+				<div class="col-md-3 customl-services-grid">
+					<div class="customls-services-img">
+						<i class="fa fa-ambulance" aria-hidden="true"></i>
+					</div>
+					<div class="agileits-services-info">
+						<h4>Transport Services</h4>
+						<p>Transfers patients to and from medical facilities in emergency and non-emergency situations.
+						</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!-- history -->
+	<div class="jarallax history">
+		<div class="container">
+			<div class="agileinfo-history-grids">
+				<div class="slider">
+					<div class="callbacks_container">
+						<ul class="rslides" id="slider3">
+							<li>
+								<div class="cust-history-info">
+									<h4>Establishment</h4>
+									<p>It was founded by Hemendra Kuntal in 1983 as the first corporate health care in
+										Starlette.
+										The first branch at Star city was inaugurated by the then President of Starlette
+										Mukesh Narang.</p>
+								</div>
+							</li>
+							<li>
+								<div class="cust-history-info">
+									<h4>Funding</h4>
+									<p>In common with other top hospitals in the Starlette country, the hospital is
+										being financed
+										entirely from charitable donations, legacies and fund raising. </p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+						// Slideshow 4
+						$("#slider3").responsiveSlides({
+							auto: true,
+							pager: false,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+								$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+							}
+						});
+
+					});
+				</script>
+				<!--banner Slider starts Here-->
+			</div>
+		</div>
+	</div>
+	<!-- //history -->
+	<!-- testimonials -->
+	<div class="testimonials">
+		<div class="container">
+			<div class="agile-title">
+				<h3>Testimonials</h3>
+			</div>
+			<div class="agileits-testimonials-grids">
+				<div class="slider">
+					<div class="callbacks_container">
+						<ul class="rslides" id="slider5">
+							<li>
+								<div class="custom_testimonials_grid">
+									<img src="images/14.jpg" alt=" " class="img-responsive" />
+									<h4>Good maintainence of rooms. Nice geusture by nursing staff. Overall had a very
+										good experience and feel at home. Good job. Cheers..!</h4>
+									<h5>Amelia</h5>
+								</div>
+							</li>
+							<li>
+								<div class="custom_testimonials_grid">
+									<img src="images/15.jpg" alt=" " class="img-responsive" />
+									<h4>Hospital is maintained excellently. No problems for patients. Thanks to
+										Dr.Mallikarjuna & his team for giving greatest service to the patients. </h4>
+									<h5>Edward</h5>
+								</div>
+							</li>
+							<li>
+								<div class="custom_testimonials_grid">
+									<img src="images/16.jpg" alt=" " class="img-responsive" />
+									<h4>Nursing Staff is excellent and dedicated. Housekeeping is very good. Doctors are
+										professional and gave confidence to the patients. Please keep up the good work.
+									</h4>
+									<h5>Chloe</h5>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<script>
+					$(function () {
+						$("#slider5").responsiveSlides({
+							auto: true,
+							pager: true,
+							nav: false,
+							speed: 400,
+							namespace: "callbacks",
+							before: function () {
+								$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+							}
+						});
+
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+	<!-- //testimonials -->
+	<!-- specials -->
+	<div class="jarallax specials">
+		<div class="specials-dot">
+			<div class="container">
+				<div class="agile-title specials-heading">
+					<h3>Departments</h3>
+				</div>
+				<div class="agileits-specials-grids">
+					<div class="col-md-3 agileits-specials-grid">
+						<div class="specials-info">
+							<img src="images/21.jpg" alt="">
+							<div class="specials-caption">
+								<p>Cardiology</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-specials-grid">
+						<div class="specials-info">
+							<img src="images/6.jpg" alt="">
+							<div class="specials-caption specials-info1">
+								<p>Dermatology</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-specials-grid">
+						<div class="specials-info">
+							<img src="images/9.jpg" alt="">
+							<div class="specials-caption">
+								<p>Neurology</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-specials-grid">
+						<div class="specials-info">
+							<img src="images/20.jpg" alt="">
+							<div class="specials-caption specials-info1">
+								<p>Odontology</p>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //specials -->
+	<!-- newsletter -->
+	<div class="newsletter">
+		<div class="container">
+			<div class="agile-title">
+				<h3>Newsletter</h3>
+			</div>
+			<div class="newsletter-info">
+				<form action="#" method="post">
+					<input type="text" placeholder="Name" name="Name" required="">
+					<input type="email" placeholder="Email" name="Email" required="">
+					<button class="btn1" type="reset">Submit</button>
+					<div class="clearfix"> </div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //newsletter -->
+	<!-- footer -->
+	<footer>
+		<div class="customls-footer-grids">
+			<div class="container">
+				<div class="col-md-3 customl-footer one">
+					<h3>Starlette Hospitals</h3>
+					<p> It was founded by Hemendra Kuntal in 1983 as the first corporate health care in Starlette. The
+						first branch at Star city was inaugurated by the then President of Starlette Mukesh
+						Narang.
+					</p>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-3 customl-footer agileinfo_footer_grid">
+					<h3>Navigation</h3>
+					<div class="nav-custom-l">
+						<ul>
+							<li><a href="index.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Home</a></li>
+							<li><a href="about.html"><i class="fa fa-angle-right" aria-hidden="true"></i> About Us</a>
+							</li>
+							<li><a href="gallery.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Gallery</a>
+							</li>
+							<li><a href="contact.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 customl-footer two">
+					<h3>Keep Connected</h3>
+					<ul>
+						<li><a class="fb" href="#"><i class="fa fa-facebook"></i>Like us on Facebook</a></li>
+						<li><a class="fb1" href="#"><i class="fa fa-twitter"></i>Follow us on Twitter</a></li>
+						<li><a class="fb2" href="#"><i class="fa fa-google-plus"></i>Add us on Google Plus</a></li>
+						<li><a class="fb3" href="#"><i class="fa fa-dribbble"></i>Follow us on Dribbble</a></li>
+						<li><a class="fb4" href="#"><i class="fa fa-pinterest-p"></i>Follow us on Pinterest</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 customl-footer three">
+					<h3>Address</h3>
+					<ul>
+						<li><i class="fa fa-map-marker"></i>
+							<p>Starlette Hospitals <span>Starlette City,</span>Andhra Pradesh, Starlette. </p>
+							<div class="clearfix"></div>
+						</li>
+						<li><i class="fa fa-phone"></i>
+							<p>9415421497</p>
+							<div class="clearfix"></div>
+						</li>
+						<li><i class="fa fa-envelope-o"></i><a href="mailto:info@starlette.com">mail@starlette.com</a>
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="copy-right-grids">
+			<div class="container">
+				<div class="copy-left">
+					<p class="footer-gd">© 2022 Starlette Hospitals. All Rights Reserved</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>
+
+</html>
